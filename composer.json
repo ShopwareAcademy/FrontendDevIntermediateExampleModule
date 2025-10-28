@@ -1,0 +1,22 @@
+{
+  "name": "academy/frontend-dev-intermediate-example-module",
+  "description": "Academy Plugin: Introduction to Modules.",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "shopware/core": ">=6.7.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "FrontendDevIntermediateExampleModule\\FrontendDevIntermediateExampleModule",
+    "label": {
+      "de-DE": "Frontend Dev Intermediate – Example Module",
+      "en-GB": "Frontend Dev Intermediate – Example Module"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "FrontendDevIntermediateExampleModule\\": "src/"
+    }
+  }
+}
