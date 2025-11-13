@@ -1,5 +1,5 @@
-import template from './sw-example-list.html.twig';
-import './sw-example-list.scss'
+import template from './swag-example-list.html.twig';
+import './swag-example-list.scss';
 
 Shopware.Component.register('swag-example-list', {
     template: template,
